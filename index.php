@@ -8,7 +8,7 @@
 	<button onclick="myClick();">Посчитать</button><br>
 	Результат:<div style="display: inline;" id="result">1</div>
 
-<script>
+<script> 
 function myClick(){
   var a = document.getElementById('field').value;
   var b = eval(a);	
