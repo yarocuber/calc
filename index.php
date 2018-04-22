@@ -3,12 +3,12 @@
   </head>
 
   <body>
-    <span style="font-size:20px;">Кальк</span><br>
+    <span style="font-size:20px;">РљР°Р»СЊРє</span><br>
     <input id="field" onkeyup="myEnter(event);"/>
-	<button onclick="myClick();">Считать?</button><br>
-	Рез:<div style="display: inline;" id="result">1</div>
+	<button onclick="myClick();">РЎС‡РёС‚Р°С‚СЊ?</button><br>
+	Р РµР·:<div style="display: inline;" id="result">1</div>
 
-<script>  
+<script>   
 function myClick(){
   var a = document.getElementById('field').value;
   var b = eval(a);
