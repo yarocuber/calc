@@ -3,10 +3,10 @@
   </head>
 
   <body>
-    <span style="font-size:20px;">Калькулятор</span><br>
+    <span style="font-size:20px;">Кальк</span><br>
     <input id="field" onkeyup="myEnter(event);"/>
-	<button onclick="myClick();">Посчитать?</button><br>
-	Результат:<div style="display: inline;" id="result">1</div>
+	<button onclick="myClick();">Считать?</button><br>
+	Рез:<div style="display: inline;" id="result">1</div>
 
 <script>  
 function myClick(){
